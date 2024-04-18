@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Bookmarks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f8fa;
+        }
+        .tweet {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .tweet:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .tweet-content {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .tweet-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            color: #8899a6;
+        }
+        .tweet-actions a {
+            text-decoration: none;
+            color: #8899a6;
+            cursor: pointer;
+            transition: color 0.3s ease-in-out;
+        }
+        .tweet-actions a:hover {
+            color: #1da1f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="tweet">
+        <div class="tweet-content">
+            This is a sample bookmarked tweet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+        </div>
+        <div class="tweet-actions">
+            <span>Like</span>
+            <a href="#">View</a>
+            <a href="#">Retweet</a>
+        </div>
+    </div>
+
+    <div class="tweet">
+        <div class="tweet-content">
+            Another bookmarked tweet example. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </div>
+        <div class="tweet-actions">
+            <span>Like</span>
+            <a href="#">View</a>
+            <a href="#">Retweet</a>
+        </div>
+    </div>
+
+    <div class="tweet">
+        <div class="tweet-content">
+            Yet another bookmarked tweet. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="tweet-actions">
+            <span>Like</span>
+            <a href="#">View</a>
+            <a href="#">Retweet</a>
+        </div>
+    </div>
+</body>
+</html>

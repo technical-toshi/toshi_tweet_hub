@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter-like List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f8fa;
+        }
+        .list-container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .list-item {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .list-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .list-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1da1f2;
+            margin-bottom: 10px;
+        }
+        .list-description {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .list-members {
+            font-size: 14px;
+            color: #8899a6;
+        }
+    </style>
+</head>
+<body>
+    <div class="list-container">
+        <div class="list-item">
+            <div class="list-title">Tech Influencers</div>
+            <div class="list-description">A list of influential tech personalities on Twitter.</div>
+            <div class="list-members">Members: 50</div>
+        </div>
+
+        <div class="list-item">
+            <div class="list-title">Designers to Follow</div>
+            <div class="list-description">Discover talented designers for inspiration.</div>
+            <div class="list-members">Members: 100</div>
+        </div>
+
+        <div class="list-item">
+            <div class="list-title">Startup Founders</div>
+            <div class="list-description">Connect with entrepreneurs and startup founders.</div>
+            <div class="list-members">Members: 30</div>
+        </div>
+    </div>
+</body>
+</html>

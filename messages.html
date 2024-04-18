@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Messages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f8fa;
+        }
+        h1 {
+            text-align: center;
+            color: #1da1f2;
+            margin-bottom: 20px;
+        }
+        .message {
+            background-color: #fff;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .message:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .message strong {
+            color: #1da1f2;
+        }
+        .message .sender {
+            font-weight: bold;
+        }
+        .message .time {
+            color: #8899a6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Twitter Messages</h1>
+    
+    <div class="message">
+        <span class="sender"><strong>@user1</strong></span>:
+        Hey, how's it going?
+        <span class="time">- 5 minutes ago</span>
+    </div>
+
+    <div class="message">
+        <span class="sender"><strong>@user2</strong></span>:
+        Can you check out my latest tweet?
+        <span class="time">- 10 minutes ago</span>
+    </div>
+
+    <div class="message">
+        <span class="sender"><strong>@user3</strong></span>:
+        Are you free this weekend?
+        <span class="time">- 15 minutes ago</span>
+    </div>
+</body>
+</html>
